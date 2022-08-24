@@ -39,7 +39,7 @@ SFT_T(KC_EQL), KC_SCLN,    KC_Q,    KC_J,    KC_K,    KC_X,                     
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LCTL,  KC_GRV, KC_TILD, KC_BSLS, KC_PIPE, XXXXXXX,                      XXXXXXX, KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, KC_PGUP,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                        KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F10, KC_PGDN,
+      KC_LSFT,   KC_F1,   KC_F2,   KC_F3,C(KC_GRV),  KC_F5,                        KC_F6,   KC_F7,   KC_F8, KC_HOME,  KC_END, KC_PGDN,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           _______, XXXXXXX, XXXXXXX,    KC_RSFT, KC_RCTL, KC_RALT
                                       //`--------------------------'  `--------------------------'
@@ -51,7 +51,7 @@ SFT_T(KC_EQL), KC_SCLN,    KC_Q,    KC_J,    KC_K,    KC_X,                     
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LCTL,  KC_GRV, KC_TILD, KC_BSLS, KC_PIPE, XXXXXXX,                      XXXXXXX, KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, KC_PGUP,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, KC_HOME,  KC_END, KC_PGDN,
+      KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,              G(KC_HOME),G(KC_LEFT),G(KC_RIGHT), KC_HOME,  KC_END, KC_PGDN,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LALT, XXXXXXX,  KC_DEL,    XXXXXXX, XXXXXXX, _______
                                       //`--------------------------'  `--------------------------'
